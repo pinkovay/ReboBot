@@ -4,7 +4,6 @@ from discord.ext import commands, tasks
 from datetime import datetime
 from key import token
 import random
-from discord.ui import View, Select
 
 intentes = discord.Intents.default()
 intentes.messages = True
